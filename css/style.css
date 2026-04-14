@@ -249,6 +249,14 @@ h2 {
   text-align: center;
 }
 
+.summary-section {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.summary-section .content-panel {
+  max-width: none;
+}
+
 .split-section-reverse {
   grid-template-columns: minmax(320px, 500px) minmax(0, 1fr);
 }
